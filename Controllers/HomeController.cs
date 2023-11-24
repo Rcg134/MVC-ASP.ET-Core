@@ -15,6 +15,7 @@ namespace MVC_ASP.ET_Core.Controllers
 
         public IActionResult Index()
         {
+            //sample
             return View();
         }
 
