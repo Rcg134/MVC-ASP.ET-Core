@@ -11,7 +11,7 @@
 ``````
 
  ## Securing your Connection String
-  -include this to appsettings.json  
+  - include this to appsettings.json  
     ### Code
     ````bash
     "ConnectionStrings": {
