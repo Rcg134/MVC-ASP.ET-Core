@@ -6,8 +6,9 @@
 
 
  ## Script
+ ````bash
  -Scaffold-DbContext "Server=RUSSELVIEMWAKIN\AKEMSSQLSERVER;Database=Employee;User Id=sa;Password=p@ssw0rd;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Context
-
+``````
 
  ## Securing your Connection String
   -include this to appsettings.json  
