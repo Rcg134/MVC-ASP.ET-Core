@@ -5,11 +5,11 @@
 
 
 
- ##Script
+ ## Script
  -Scaffold-DbContext "Server=RUSSELVIEMWAKIN\AKEMSSQLSERVER;Database=Employee;User Id=sa;Password=p@ssw0rd;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Context
 
 
- ##Securing your Connection String
+ ## Securing your Connection String
   -include this to appsettings.json  
      ###Code
     "ConnectionStrings": {
@@ -31,9 +31,9 @@
            => optionsBuilder.UseSqlServer(_configuration["ConnectionStrings:DefaultConnection"]);
 ``````
 
-##In Program.cs
+## In Program.cs
  - add your context before build
-  ###Code
+  ###C ode
      //Register DB CONTEXT
      builder.Services.AddDbContext<Your Context>();
      
@@ -41,13 +41,14 @@
          
 
 -------------------------------------------------------------Development---------------------------------------------------------
-###Intitial Migration
+### Intitial Migration
  -add-migration <Message>
 
-###Update Database
+### Update Database
 -update-database
 
 ### if you want to Roll Back
+````bash
 -dotnet ef database update <PreviousMigrationName>
-
+``````
        
