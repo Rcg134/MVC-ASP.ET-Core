@@ -19,7 +19,7 @@
      },
      ``````
 
-  -in your context inject IConfifuration
+  - in your context inject IConfifuration
      ### Code
           private readonly IConfiguration _configuration;
 
