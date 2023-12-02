@@ -43,7 +43,7 @@
      var app = builder.Build();
          
 
--------------------------------------------------------------Development---------------------------------------------------------
+# DEVELOPMENT
 ### Intitial Migration
 ````bash
  -add-migration <Message>
