@@ -43,7 +43,9 @@
 
 -------------------------------------------------------------Development---------------------------------------------------------
 ### Intitial Migration
+````bash
  -add-migration <Message>
+``````
 
 ### Update Database
 ````bash
