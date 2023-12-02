@@ -12,10 +12,12 @@
 
  ## Securing your Connection String
   -include this to appsettings.json  
-     ###Code
+    ### Code
+    ````bash
     "ConnectionStrings": {
     "DefaultConnection": "Server=RUSSELVIEMWAKIN\\AKEMSSQLSERVER;Database=Student;User Id=sa;Password=p@ssw0rd;TrustServerCertificate=True;"
      },
+     ``````
 
   -in your context inject IConfifuration
      ### Code
