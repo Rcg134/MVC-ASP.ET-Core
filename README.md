@@ -18,7 +18,7 @@
      },
 
   -in your context inject IConfifuration
-     ###Code
+     ### Code
           private readonly IConfiguration _configuration;
 
 ````bash
@@ -34,8 +34,8 @@
 
 ## In Program.cs
  - add your context before build
-  ###C ode
-     //Register DB CONTEXT
+  ### Code
+     #### Register DB CONTEXT
      builder.Services.AddDbContext<Your Context>();
      
      var app = builder.Build();
@@ -46,7 +46,9 @@
  -add-migration <Message>
 
 ### Update Database
+````bash
 -update-database
+``````
 
 ### if you want to Roll Back
 ````bash
